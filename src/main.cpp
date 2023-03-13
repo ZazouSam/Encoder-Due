@@ -17,4 +17,3 @@ void loop()
 {
   encoder_loop();
 }
-
