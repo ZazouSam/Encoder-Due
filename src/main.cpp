@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <Encoder.h>
+#include <Wire.h>
 #include "Encoder_Custom.h"
 
 void setup()
