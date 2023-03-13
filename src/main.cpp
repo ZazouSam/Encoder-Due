@@ -6,6 +6,7 @@
 void setup()
 {
   Wire.begin(2);
+  Wire.onRequest(requestEvent); // register event
   Serial.begin(115200);
   Serial.println("Encoder Test");
 
